@@ -34,12 +34,65 @@ body {
 
   /***************************first grid*******************************/
 
-@media screen and (max-width: 768px){
-.maincontent{position: relative;
-  bottom: 100px;
-right:40px;}
+@media screen and (max-width: 450px){
+ .maincontent{position: relative;
+  bottom: 140px;
+
+}
 #home{height:500px;}
-#homevideo{height:500px;}
+#homevideo{height:600px;}
+#secondpage{position: relative;
+top:400px;
+    height: 800px;
+    width: 100%;
+  background-color: black;}
+
+#clients{margin-left: 30px;}
+
+#thirdpage{position: relative;
+top: 200px;
+    height: 3800px;
+    width: 100%;
+  background-color: black;}
+#row{margin-left: 20px;
+align-items: flex-start;}
+#coreimage{width:80%;
+height: 70%}
+
+#testimonials{position: relative;
+top: 100px;
+    height: 900px;
+    width: 100%;
+  background-color: black;}
+  #carousel-item{position: relative;
+  top:100px;}
+  #cosmos{height:400px;
+  width:80%;
+margin-right: 15%;}
+
+#carousel-indicators{position: relative;
+top:600px;}
+
+.carousel-control-next-icon1 {display: none;}
+.carousel-control-prev-icon1{display: none;}
+#cntct{position:absolute;
+top: 5600px;
+height: 1000px;}
+.cosmos{position: relative;
+bottom:70px;}
+
+#FirstName{margin-left: 15px;
+}
+#LastName{margin-left: 15px;
+}
+#EmailId{margin-left: 15px;}
+#Message{margin-left: 15px;}
+#footer{position:absolute;
+top: 6200px;
+height: 700px;}
+
+#buttonsubmit{position: none;
+  margin-left:120px; }
 }
 
 
@@ -75,40 +128,32 @@ background-color: black;
 
 
 .mainheading{position: relative;
-  left:100px;
+  left:6.25%;
 top:200px;
 z-index: 1;
-font-size: 70px;
+font-size: 437.5%;
 color:#a8a59d; }
 
 .secondmainheading{position: relative;
-    left:100px;
+    left:6.25%;
 top:200px;
 z-index: 1;
-font-size: 40px;
+font-size: 250%;
 color:#a8a59d;
 }
 
 
 .thirdmainheading{position: relative;
-    left:100px;
+    left:6.25%;
 top:200px;
 z-index: 1;
+font-size: 187.5%;
 color:#a8a59d;}
 
 
 /******clients******************/
 
-@media screen and (max-width: 768px){
-  #secondpage{position: relative;
-  top:400px;
-      height: 800px;
-      width: 100%;
-    background-color: black;}
 
-#clients{margin-left: 0px;}
-
-}
 
 
 
@@ -145,24 +190,11 @@ align-self: center;}
 
 #clients{position: relative;
 top:100px;
-margin-left: 150px;}
+margin-left:10.375%;}
 
 
 /* thirdpage */
 
-@media screen and (max-width: 768px){
-  #thirdpage{position: relative;
-  top: 200px;
-      height: 3300px;
-      width: 100%;
-    background-color: black;}
-#row{margin-left: 20px;
-align-items: flex-start;}
-#coreimage{width:65%;
-height: 70%}
-
-
-}
 
 
 
@@ -203,7 +235,7 @@ display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  left: 110px;
+  left: 9.25%;
   z-index: 1;
 border-radius: 15px;}
 
@@ -216,7 +248,7 @@ border-radius: 15px;}
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  left: 110px;
+  left:9.25%;
   z-index: 1;}
 
 
@@ -229,7 +261,7 @@ display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  left: 110px;
+  left: 9.25%;
   z-index: 1;}
 
 
@@ -241,7 +273,7 @@ display: block;
   display: block;
     margin-left: auto;
     margin-right: auto;  position: relative;
-  left: 110px;
+  left: 9.25%;
   z-index: 1;}
 
 
@@ -257,26 +289,7 @@ display: block;
 
 /* testimonials */
 
-@media screen and (max-width: 768px){
-  #testimonials{position: relative;
-  top: 200px;
-      height: 900px;
-      width: 100%;
-    background-color: black;}
-    #carousel-item{position: relative;
-    top:100px;}
-    #cosmos{height:500px}
-    #captions{  display: none;}
-#company-name{position: relative;
-bottom:380px;}
 
-#carousel-indicators{position: relative;
-top:700px;}
-
-  .carousel-control-next-icon1 {display: none;}
-  .carousel-control-prev-icon1{display: none;}
-
-  }
 
 /* fourthpage */
 
@@ -405,22 +418,7 @@ margin-left: 200px;
 
 
 /*********************contact***********************************/
-@media screen and (max-width: 768px){
-  #cntct{position:absolute;
-  top: 5200px;
-height: 1000px;}
-.cosmos{position: relative;
-bottom:70px;}
 
-#FirstName{margin-left: 15px;
-}
-#LastName{margin-left: 15px;
-}
-#EmailId{margin-left: 15px;}
-#Message{margin-left: 15px;}
-
-
-}
 
 
 
@@ -546,11 +544,6 @@ color:white;}
 /***********footer***************/
 /*********************footer****************************************/
 
-@media screen and (max-width: 768px){
-  #footer{position:absolute;
-  top: 5800px;
-height: 440px;}
-}
 
 
 .footer{position: absolute;
@@ -575,6 +568,8 @@ width: 100%;}
 
 }
 
+
+.logohead{margin-left: 30px;}
 
 
 .fa-phone-volume{padding-right:1%;
@@ -602,7 +597,7 @@ margin-right: auto;
 
 
 .sql2{color: white;
-text-align: left;
+text-align: center;
 
 }
 
@@ -614,12 +609,12 @@ text-decoration:none;}
 .sql1:hover{color:grey;
 text-decoration:none;}
 
-.tablesql{margin-left: 100px;}
+.tablesql{margin-left: 140px;}
 
 
 .social{position: relative;
   top: 10px;
-left:90px;
+left:120px;
 size:20%;
 margin-bottom: 40px;}
 

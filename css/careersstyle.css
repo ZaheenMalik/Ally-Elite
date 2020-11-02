@@ -28,12 +28,7 @@ body.viewport-lg{ position: absolute; }
 
 /* firstpage */
 @media screen and (max-width: 768px){
-#aboutuspar{position: none;
-  align-self: center;
-  display: block;
-margin-left: 10px;
-margin-right: 10px;
-width:100%;}
+
 
 
 #secondhomep1{position: absolute;
@@ -60,6 +55,44 @@ height:1300px;}
 #jobs{top:4500px;}
 #footer{top:5000px;
 height:440px;}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px){
+
+
+
+#secondhomep1{position: absolute;
+  height:1200px;}
+
+#buttonlearn{position: relative;
+  top:100px;
+left:80px;}
+
+
+  #secondhomep2{
+    position: absolute;
+    top:1250px;
+  height:2000px;}
+#reasonsimage{
+  height:2000px;}
+
+#reasonspar{position: absolute;
+top:50px;}
+#benefitsdiv{position: absolute;
+  top:200px;}
+#recruitmentp{top:3200px;
+height:1300px;}
+#jobs{top:4500px;}
+#footer{top:5150px;
+height:700px;}
 
 
 }
@@ -132,8 +165,8 @@ padding:5%;
 position: relative;
 top:100px ;
 align-self: center;
-margin-left: 200px;
-margin-right: 200px;
+margin-left: 12.25%;
+margin-right: 12.25%;
 font-family: 'Slabo 27px', serif;
 line-height: 35px;
 padding:6%;
@@ -242,6 +275,7 @@ height:310px;
 background-color: black;
 width: 100%;}
 
+.logohead{margin-left: 30px;}
 
 
 .content{margin-top: 80px;}
@@ -286,7 +320,7 @@ margin-right: auto;
 
 
 .sql2{color: white;
-text-align: left;
+text-align: center;
 
 }
 
@@ -298,12 +332,12 @@ text-decoration:none;}
 .sql1:hover{color:grey;
 text-decoration:none;}
 
-.tablesql{margin-left: 100px;}
+.tablesql{margin-left: 140px;}
 
 
 .social{position: relative;
   top: 10px;
-left:90px;
+left:120px;
 size:20%;
 margin-bottom: 40px;}
 
