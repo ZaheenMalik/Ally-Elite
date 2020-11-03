@@ -32,8 +32,7 @@ body {
 
 #nav-link{padding-left: 20px;}
 
-/* #nav-link:hover{background-color: grey;
-color: white;} */
+
 
 #btncntct{margin-right: 0px;
 margin-top: 6px;}
@@ -41,8 +40,12 @@ margin-top: 6px;}
   #dropdown-menu{
     display: none;
   }
-  #logo {
-    display: none;
+  #logo {  width:200px;
+    height:80px;
+    position: relative;
+    right:90px;
+
+
   }
 #hiddennav{display: inline;
 padding-left: 10px;
