@@ -36,7 +36,9 @@ body.viewport-lg{ position: absolute; }
 
 @media screen and (max-width: 450px){
 
-
+.trick{
+  position:absolute;
+top:4500px;}
 
 #secondhomep1{position: absolute;
   height:1200px;}
@@ -63,7 +65,7 @@ left:80px;}
 #recruitmentp{position: absolute;
   top:3250px;
 height:1300px;}
-#jobs{top:4500px;}
+#jobs{top:4550px;}
 #footer{top:5150px;
 height:700px;}
 
@@ -210,6 +212,14 @@ width: 100%;
 background-color: #e8e6df; }
 
 /**********************jobs******************/
+.trick{position: absolute;
+top:2300px;}
+
+
+.trickhidden{display:none;
+position: absolute;
+top:4200px;}
+
 .job-openings{position: absolute;
 top: 2450px;
 height:400px;

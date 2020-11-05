@@ -55,7 +55,7 @@ body {
 
 }
 .font{font-size: 80%;}
-#imageclients{height:120px;width:170px; opacity:70%;}
+#imageclients{height:80%;width:80%; opacity:70%;}
 
 .trick{position: absolute;
 top:4850px;}
@@ -68,7 +68,7 @@ top:300px;
     width: 100%;
   background-color: black;}
 
-#clients{padding-left: 36px;}
+#clients{padding-left: 5%;}
 
 #thirdpage{position: absolute;
 top: 850px;
