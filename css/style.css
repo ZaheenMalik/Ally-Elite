@@ -14,9 +14,16 @@ body {
       background-size: cover; }
 
 
-* {
-    box-sizing: inherit;
-}
+      body.modal-open{ overflow: hidden;
+          position: fixed;}
+
+      body.viewport-lg{ position: absolute; }
+
+      * {
+          box-sizing: inherit;
+      }
+
+
 
 
   /*************************color palette******************************/
@@ -37,20 +44,21 @@ body {
 @media screen and (max-width: 450px){
  .maincontent{position: relative;
   bottom: 140px;
+  font-size: 60%;
 
 }
-#home{height:500px;}
+#home{height:600px;}
 #homevideo{height:600px;}
-#secondpage{position: relative;
-top:400px;
+#secondpage{position: absolute;
+top:300px;
     height: 800px;
     width: 100%;
   background-color: black;}
 
-#clients{margin-left: 30px;}
+#clients{padding-left: 36px;}
 
-#thirdpage{position: relative;
-top: 200px;
+#thirdpage{position: absolute;
+top: 1100px;
     height: 3800px;
     width: 100%;
   background-color: black;}
@@ -59,8 +67,8 @@ align-items: flex-start;}
 #coreimage{width:80%;
 height: 70%}
 
-#testimonials{position: relative;
-top: 100px;
+#testimonials{position: absolute;
+top: 4900px;
     height: 900px;
     width: 100%;
   background-color: black;}
@@ -76,7 +84,7 @@ top:600px;}
 .carousel-control-next-icon1 {display: none;}
 .carousel-control-prev-icon1{display: none;}
 #cntct{position:absolute;
-top: 5600px;
+top: 5800px;
 height: 1000px;}
 .cosmos{position: relative;
 bottom:70px;}
@@ -88,7 +96,7 @@ bottom:70px;}
 #EmailId{margin-left: 15px;}
 #Message{margin-left: 15px;}
 #footer{position:absolute;
-top: 6200px;
+top: 6400px;
 height: 700px;}
 
 #buttonsubmit{position: none;
@@ -107,10 +115,10 @@ height: 800px;
     overflow:hidden;
 
  min-height: 500px;
-background-attachment: fixed;
+/* background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
- background-size: cover;
+ background-size: cover; */
 }
 
 

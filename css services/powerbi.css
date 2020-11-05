@@ -33,34 +33,44 @@ top:100px;
 }
 #choose{top:1800px;
 height:1600px;}
-#interest{position: relative;
-  top:3000px;
-height:500px;}
-#interested{position: relative;
-top:2200px;}
-#interested2{position: relative;
-top:1800px;}
+
+#reports{position: relative;
+  top:2000px;
+}
+#interest{height:500px;
+  position: relative;
+bottom:700px;
+}
 #footer{height:700px;
   position: absolute;
-top:3800px;
+  top:4700px;
 }
-#thepage{height:3800px;}
+#thepage{height:4700px;}
 #marginchoose{margin-bottom: 70px;}
 #interestedmargin{position: none;
-margin-left: 2.25%;
-margin-right: 2.25%;}
+margin-left: 2.5%;
+margin-right: 2.5%;
+}
 #mainpar{position: none;
 margin-left:2%;
 margin-right:5%;
-margin-bottom: 10%;}
+margin-bottom: 10%;
+color:#f70549;}
 #heading-section{height:500px;}
 #infopar{position: relative;top:100px;}
+#interestedpar{height:195px;}
+.reportrow{position: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
-
+#mainheading1{color:#f70549;}
+.arrows{opacity: 0%;}
 }
 
 
-.mainheadingpar{position:relative;bottom:40px; margin-left:250px;}
+.mainheadingpar{position:relative;bottom:40px; margin-left:250px;
+}
 
 .col-lg-8{margin-left: 100px;
 margin-right: 100px;
@@ -68,8 +78,7 @@ margin-top: 70px;
 display: block;}
 .secondhomepage1{position: absolute;
 top: 50px;
-
-height: 2300px;
+height: 3000px;
 width: 100%;
 }
 
@@ -88,9 +97,10 @@ padding-left: 6.25%;
 padding-right:6.25%;
 font-style: italic;
 font-weight: bold;
-color: white;
+
 font-size: 40px;
-text-shadow: 2px 2px 4px black;
+color:black;
+
 }
 
 
@@ -100,7 +110,7 @@ text-shadow: 2px 2px 4px black;
 }
 
 
-.mainheadingpar{color: white;
+.mainheadingpar{color: black;
 position: relative;
 bottom: 340px;
 text-align:center;
@@ -109,9 +119,7 @@ padding-right:6.25%;
 font-size: 25px;
 font-weight: bold;
 font-family: 'Piazzolla', serif;
-text-shadow: 10px 10px 10px black;
-
-color: white;}
+}
 
 
 .infopar{position: absolute;
@@ -158,12 +166,93 @@ align-self: center;}
 .fa-calendar-check{padding-right:3%;}
 
 
+/***********video**********/
+.reports{position: absolute;
+top:1800px;
+height:900px;
+width: 100%;
+background-color: #e8e6df;}
+
+.videorow{position: relative;
+top:150px;}
+
+.videostyling{border-radius: 15px;}
+
+
+
+.videostyle{border-radius: 15px ;
+box-shadow: 2px 2px 2px 2px grey;
+align-self: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+
+
+
+.col-lg-10{align-self: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+  .carousel-control-next-icon1 .carousel-control-prev-icon1 {
+
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+
+  }
+  .carousel-control-next-icon1:after
+  {  position: relative;
+  top:0px;
+
+    content: '>';
+    font-size: 55px;
+    color: black;
+    position: relative;
+    bottom: 350px;
+    align-self: auto;
+  }
+
+  .carousel-control-prev-icon1:after {
+    position: relative;
+  top:0px;
+
+    content: '<';
+    font-size: 55px;
+    color: black;
+    position: relative;
+    bottom: 350px;
+    align-self: auto;}
+
+
+
+
+
+
+.homepagehr5{
+border: solid #ac090a 2px;
+border-top: none;
+border-width: 2px;
+position: relative;
+top: 20px;
+width: 5%;
+align-self: center;
+margin-bottom: 50px;} */
+
 
 
 
 /* get in touch section */
+
 .interested{position: absolute;
-top:1800px;
+top:2700px;
 height:300px;}
 
 .btncntct2 {position: relative;
@@ -202,7 +291,7 @@ font-weight: bold;}
 
 
 .footer{position: absolute;
-top:2100px;
+top:3000px;
 height:310px;
 background-color: black;
 width: 100%;}
