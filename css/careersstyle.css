@@ -32,7 +32,7 @@ body.viewport-lg{ position: absolute; }
 
 
 #secondhomep1{position: absolute;
-  height:800px;}
+  height:900px;}
 
 #buttonlearn{position: relative;
   top:100px;
@@ -41,19 +41,22 @@ left:150px;}
 
   #secondhomep2{
     position: absolute;
-    top:850px;
+    top:950px;
   height:2450px;}
 #reasonsimage{
   height:2450px;}
 
-#reasonspar{position: absolute;
+#reasonspar{position: relative;
 top:50px;}
-#benefitsdiv{position: absolute;
+#benefitsdiv{position: relative;
   top:200px;}
-#recruitmentp{top:3200px;
+#recruitmentp{position: absolute;
+  top:3200px;
 height:1300px;}
-#jobs{top:4500px;}
-#footer{top:5000px;
+#jobs{position: absolute;
+top:4500px;}
+#footer{position: absolute;
+  top:5000px;
 height:440px;}
 
 
