@@ -54,23 +54,25 @@ body {
   font-size: 80%;
 
 }
+.font{font-size: 80%;}
+#imageclients{height:120px;width:170px; opacity:70%;}
 
 .trick{position: absolute;
-top:5800px;}
+top:4850px;}
 
 #home{height:600px;}
 #homevideo{height:600px;}
 #secondpage{position: absolute;
 top:300px;
-    height: 800px;
+    height: 550px;
     width: 100%;
   background-color: black;}
 
 #clients{padding-left: 36px;}
 
 #thirdpage{position: absolute;
-top: 1100px;
-    height: 3800px;
+top: 850px;
+    height: 3100px;
     width: 100%;
   background-color: black;}
 #row{margin-left: 20px;
@@ -79,7 +81,7 @@ align-items: flex-start;}
 height: 70%}
 
 #testimonials{position: absolute;
-top: 4900px;
+top: 3950px;
     height: 900px;
     width: 100%;
   background-color: black;}
@@ -95,8 +97,8 @@ top:600px;}
 .carousel-control-next-icon1 {display: none;}
 .carousel-control-prev-icon1{display: none;}
 #cntct{position:absolute;
-top: 5800px;
-height: 1000px;}
+top: 4850px;
+height: 600px;}
 .cosmos{position: relative;
 bottom:70px;}
 
@@ -107,11 +109,16 @@ bottom:70px;}
 #EmailId{margin-left: 15px;}
 #Message{margin-left: 15px;}
 #footer{position:absolute;
-top: 6400px;
+top: 5450px;
 height: 700px;}
 
 #buttonsubmit{position: none;
   margin-left:120px; }
+
+  .homepageheading1{font-size: 80%;}
+    .homepageheading2{font-size: 80%;}
+      .homepageheading3{font-size: 80%;}
+
 }
 
 
@@ -173,7 +180,7 @@ color:#a8a59d;}
 /******clients******************/
 
 
-
+.imageclients{height:150px;width:200px; opacity:70%}
 
 
 
